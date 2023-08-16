@@ -1,8 +1,6 @@
 # Pipelined-MIPS-CPU
-MIPS CPU System Readme
 
-
-This readme provides an overview of the inner entities in the MIPS CPU system. These entities work together to execute MIPS assembly instructions and facilitate efficient and accurate processing.
+This readme provides an overview of the inner entities in the pipelined MIPS CPU system. These entities work together to execute MIPS assembly instructions and facilitate efficient and accurate processing.
 
 1. Ifetch- 
 The Ifetch unit is responsible for fetching instructions from memory. It retrieves the instruction stored at the program counter (PC) and sends it to the next stage for decoding and execution. it gets also the pcsrc signal for jumps and branches.
